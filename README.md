@@ -44,3 +44,19 @@ For some of these exercises, there will be datasets required to do the work.  Yo
 For now, these are unorganized.  Maybe I'll organize them in the future.
 
 ### Exercise 001
+
+1. Print the contents of `simple_1.json` file in the terminal.
+
+2. Return the value of `type` in the JSON.  (*Hint: can use `jq` here.*)
+
+### Exercise 002
+
+1. Print the contents of `simple_2.json` file in the terminal.
+
+2. Return a list of all values of `type`.  (*Hint: can use `jq` here.*)
+
+3. Return a list of all *unique* values of `type`.
+
+4. Return an alphabetized list of all *unique* values of `type`.
+
+### Exercise 003
