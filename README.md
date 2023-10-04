@@ -35,8 +35,12 @@ Some tools I'll be using:
 [csvkit]: https://csvkit.readthedocs.io/en/latest/
 [jq]: https://jqlang.github.io/jq/
 
+## Datasets
+
+For some of these exercises, there will be datasets required to do the work.  You may use your own datasets and adapt, but I include the datasets in this repo.
+
 ## Exercises
 
 For now, these are unorganized.  Maybe I'll organize them in the future.
 
-**Exercise 001**: 
+### Exercise 001

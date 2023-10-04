@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "type": "hammer",
+        "cost": "$5.50"
+    },
+    {
+        "id": 2,
+        "type": "nail",
+        "cost": "$0.01"
+    },
+    {
+        "id": 3,
+        "type": "screwdriver",
+        "cost": "$2.25"
+    },
+    {
+        "id": 4,
+        "type": "screw",
+        "cost": "$0.10"
+    },
+    {
+        "id": 5,
+        "type": "glue",
+        "cost": "$1.50"
+    }
+]
