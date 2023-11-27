@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     iproute2 \
     jq \
     net-tools \
-    netcat \
+    netcat-traditional \
     nmap \
     sudo \
     vim \ 

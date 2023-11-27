@@ -6,6 +6,31 @@ Exercises to help me remember all the command line tools.  Hope that it'll help 
 
 I'll be using `zsh` and some of the tools below when thinking about these questions, but you may use whatever you'd like.
 
+## Quickstart
+
+### Create the Command-line Env and Site
+
+```shell
+docker compose up -d
+docker compose exec main /bin/bash
+
+# When done...
+docker compose down
+```
+
+or you can use the justfile:
+
+```shell
+just up
+
+# When done...
+just down
+```
+
+### Use the Env and Site
+
+The exercises are listed at <http://localhost:5000/>.  Use the shell created in the previous exercise to do them!
+
 ## Common Tools
 
 Some tools I'll be using:
@@ -38,24 +63,3 @@ Some tools I'll be using:
 
 For some of these exercises, there will be datasets required to do the work.  You may use your own datasets and adapt, but I include the datasets in this repo.
 
-## Exercises
-
-For now, these are unorganized.  Maybe I'll organize them in the future.
-
-### Exercise 001
-
-1. Print the contents of `simple_1.json` file in the terminal.
-
-2. Return the value of `type` in the JSON.  (*Hint: can use `jq` here.*)
-
-### Exercise 002
-
-1. Print the contents of `simple_2.json` file in the terminal.
-
-2. Return a list of all values of `type`.  (*Hint: can use `jq` here.*)
-
-3. Return a list of all *unique* values of `type`.
-
-4. Return an alphabetized list of all *unique* values of `type`.
-
-### Exercise 003

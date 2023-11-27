@@ -1,0 +1,14 @@
+services:
+
+  main:
+    build: .
+    volumes:
+      - ./data:/data
+    stdin_open: true 
+    tty: true
+
+  app:
+    build: ./app
+    ports:
+      - 5000:5000
+    

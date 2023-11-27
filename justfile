@@ -3,8 +3,9 @@ set shell := ["zsh", "-cu"]
 default:
     just --list
 
-build:
-    docker build -t cle ./docker
+up:
+    docker compose up -d
+    docker compose exec main /bin/bash
 
-run:
-    docker run -it cle /bin/bash
+down:
+    docker compose down
