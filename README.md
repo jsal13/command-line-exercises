@@ -29,7 +29,7 @@ just down
 
 ### Use the Env and Site
 
-The exercises are listed at <http://localhost:5000/>.  Use the shell created in the previous exercise to do them!
+The exercises are listed at <http://localhost:8001/>.  Use the shell created in the previous exercise to do them!
 
 ## Common Tools
 
@@ -62,4 +62,3 @@ Some tools I'll be using:
 ## Datasets
 
 For some of these exercises, there will be datasets required to do the work.  You may use your own datasets and adapt, but I include the datasets in this repo.
-

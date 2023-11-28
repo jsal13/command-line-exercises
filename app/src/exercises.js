@@ -9,7 +9,7 @@ const exerciseList = {
 
     "unique_sorted_return_json": {
         "html": `
-            <p>Take the <i>unique</i> string values corresponding to the key <code>type</code> in <code>/data/simple_2.json</code>, sort them alphabetically, then concatenate those strings together without spaces.  The result is the solution.</p>
+            <p>Take the <i>unique</i> string values corresponding to the key <code>type</code> in <code>/data/simple_2.json</code>, sort them alphabetically, then concatenate those strings together without spaces.  The resulting string is the solution.</p>
         `,
         "solution": "gluehammernailscrewscrewdriver",
         "recommendedTools": ["jq"]
